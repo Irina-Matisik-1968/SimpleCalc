@@ -14,8 +14,10 @@ namespace SimpleCalc
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Input second ");
             double b = Convert.ToDouble(Console.ReadLine());
-            double res = a + b;
-            Console.WriteLine("Result = " + res);
+            double resAdd = a + b;
+            Console.WriteLine("Result addition = " + resAdd);
+            double resSub = a - b;
+            Console.WriteLine("Result subtraction = " + resSub);
             Console.ReadKey();
         }
     }
